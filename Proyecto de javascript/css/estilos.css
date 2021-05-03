@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header{
+    width: 100%;
+    height: 300px;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+
+    background-color: brown;
+    background-image: url(../images/melanie-karrer-RQLezFsVCQc-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+#fecha{
+position: absolute;
+top: 150px;
+margin-left: 620px;
+
+font-size: 30px !important;
+
+}
+.hora{
+    font-size: 30px;
+    text-align: center;
+    margin: 0 auto;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 500px;
+    margin-bottom: 30px;
+}
+.main{
+
+    width: 100%;
+
+    max-width: 600px;
+    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    background-color: darkgray;
+
+}
+
+.tareaInput{
+
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    margin: 0px auto 0px auto;
+}
+.lista{
+    width: 95%;
+   
+    margin: 10px auto 0px auto;
+}
+li{
+    display: flex;
+    align-items: center;
+
+justify-content: space-around;
+border-bottom: 3px rgba(231,227, 227) solid; 
+margin-bottom: 20px;
+padding: 20px;
+}
+
+
+.work{
+    width: 80%;
+
+}
+.done, .remove{
+    width:  5%s;
+
+}
+.info{
+    text-align: center;
+    padding: 20px;
+    line-height: 40px;
+}
+#inputTarea{
+
+margin-top: 20px;
+padding: 20px;
+width: 1000px;
+
+}
+.workDone{
+    text-decoration: line-through;
+  background-color: #fff
+;
+color: #000;
+width: auto;
+text-align:  center;
+padding: 20px;
+align-items: center;
+}
+.nuevainfo{
+    display: none;
+}
+.nuevainfo::before{
+    display: block;
+    content: "Esta tarea ya la tienes completa";
+}
+
+#btnAdd{
+    width: 85%;
+    text-align: center;
+    font-size: 40px;
+
+}
+#fecha{
+    color: black;
+    font-size: 1.2rem;
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+
+}
+
+
